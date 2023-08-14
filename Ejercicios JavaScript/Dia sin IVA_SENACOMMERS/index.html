@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Día sin IVA</title>
+    <script src="function.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Compra sin IVA</h1>
+    <label for="valorCompra">Valor de la compra:</label>
+    <input type="number" id="valorCompra">
+    <br>
+    <label for="fechaNacimiento">Fecha de nacimiento:</label>
+    <input type="date" id="fechaNacimiento">
+    <br>
+    <label for="genero">Genero:</label>
+    <select id="genero">
+        <option value="F">Femenino</option>
+        <option value="M">Masculino</option>
+    </select>
+    <br>
+    <button onclick="realizarCompra()">Realizar Compra</button>
+    <br><br>
+    <div id="resultado"></div>
+</body>
+</html>
